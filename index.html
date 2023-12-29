@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    function division(x, y) {
+    var d;
+    d = parseInt(x) / parseInt(y)
+    alert("Answer =" + d)
+    return d;
+    }
+    function even(d) {
+    if (d % 2 == 0) {
+        alert("Number is Even")
+    }
+    if (d % 2 != 0) {
+        alert("Number is Odd")
+    }
+
+    }
+    var x, y, d;
+    x = prompt("Enter divident")
+    y = prompt("Enter Divisor")
+    d = division(x, y);
+    even(d);
+   
+    </script>
+<body>
+    
+</body>
+</html>
